@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
-
+set -e
 # Actualizamos repositorios
  apt update
  apt upgrade -y
@@ -13,4 +13,4 @@ set -x
 # Reiniciamos Apache
  systemctl restart apache2
  #copiamos nuestro archivo de prueba php a /var/www/html
-    cp ../php/index.php /var/www/html
+ cp ../php/index.php /var/www/html
