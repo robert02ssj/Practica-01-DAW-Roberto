@@ -71,6 +71,6 @@ Instalamos MySQL Server:
  #Reiniciamos apache
  systemctl restart apache2
 ```
-![alt text](capturas/phpmyadmin.png)
+![alt text](Capturas/phpmyadmin.png)
 
 
